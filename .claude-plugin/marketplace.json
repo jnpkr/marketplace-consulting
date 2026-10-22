@@ -1,0 +1,56 @@
+{
+  "name": "consulting",
+  "description": "Jon's skills for client work",
+  "owner": {
+    "name": "Jon Parker",
+    "email": "jon@quantamanagement.com"
+  },
+  "plugins": [
+    {
+      "name": "plain-writing",
+      "description": "Writes and edits prose in a plain style: simple everyday words, complete sentences, no dashes, no jargon and no analogies.",
+      "author": {
+        "name": "Shreya Shankar"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/docwriter-org/plain-writing-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "docwriter-org/plain-writing-skill",
+        "path": "skills/plain-writing",
+        "ref": "main",
+        "sha": "f0d3630983ac7a82aa580f1c1509d72df739ee12"
+      }
+    },
+    {
+      "name": "writing-for-agents",
+      "description": "Guidance for writing documents that agents read, such as skills, AGENTS.md and CLAUDE.md.",
+      "author": {
+        "name": "Matt Pocock"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/mattpocock/skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "mattpocock/skills",
+        "path": "skills/productivity/writing-for-agents",
+        "ref": "main",
+        "sha": "5beb35b040e3de97e54fa9e386d7e42d15c295c2"
+      }
+    },
+    {
+      "name": "dictation-fixes",
+      "description": "Flags words that were probably transcribed wrong and suggests adding the fix to the dictation app's dictionary.",
+      "author": {
+        "name": "Jon Parker"
+      },
+      "homepage": "https://github.com/jnpkr/skill-dictation-fixes",
+      "source": {
+        "source": "github",
+        "repo": "jnpkr/skill-dictation-fixes",
+        "ref": "main",
+        "sha": "dc38dc1eb5301bf57e4ebc3dcf07db9e04d2052d"
+      }
+    }
+  ]
+}
