@@ -18,17 +18,17 @@ Each upstream folder has `SKILL.md` at its root, so each plugin loads as a singl
 
 Cowork and chat read plugins from your claude.ai account, so you add the marketplace once for each account you sign in with.
 
-1. In the desktop app or on claude.ai, open Customize, then Plugins, and select Add marketplace.
-2. Enter `jnpkr/marketplace-consulting`.
-3. Install each skill the client has approved.
+1. In the desktop app or on claude.ai, open Customize, then Plugins, select Add, then Add marketplace.
+2. Enter `jnpkr/marketplace-consulting` and select Sync.
+3. The skills appear on the Plugins page as "by marketplace-consulting". Select Add on each skill the client has approved.
 
 A plugin you install this way is saved to your account, so it also loads in chat and in Claude Code sessions where you sign in with the same account.
 
-To take updates, select Check for updates on the `consulting` marketplace, or turn on Sync automatically.
+To take updates, select Check for updates on the `marketplace-consulting` marketplace. Sync automatically starts a sync on each push, and it needs a webhook on this repository.
 
 In a client's Team or Enterprise organization, the Add marketplace option appears when the client's Owner has turned on User-created skills in Organization settings, under Plugins & skills, then Policy.
 
-Not yet tested: whether a marketplace added in Cowork installs `git-subdir` entries, and whether it installs the commit named by `sha`.
+Not yet tested: whether an install from Cowork uses the commit named by `sha` or the head of `ref`.
 
 ## Install in Claude Code
 
