@@ -63,6 +63,26 @@
       "skills": [
         "./"
       ]
+    },
+    {
+      "name": "grilling",
+      "description": "Questions the user in rounds about a plan, decision or idea until both sides reach a shared understanding.",
+      "author": {
+        "name": "Matt Pocock"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/mattpocock/skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mattpocock/skills.git",
+        "path": "skills/productivity/grilling",
+        "ref": "main",
+        "sha": "5beb35b040e3de97e54fa9e386d7e42d15c295c2"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ]
     }
   ]
 }

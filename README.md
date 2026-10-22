@@ -10,6 +10,7 @@ The marketplace is named `consulting`, and each plugin has the same name as its 
 | --- | --- | --- | --- |
 | `plain-writing` | Writes and edits prose in a plain style, with simple everyday words and complete sentences | [`docwriter-org/plain-writing-skill`](https://github.com/docwriter-org/plain-writing-skill), folder `skills/plain-writing` | MIT, Shreya Shankar |
 | `writing-for-agents` | Gives guidance for writing documents that agents read, e.g., skills, `AGENTS.md` and `CLAUDE.md` | [`mattpocock/skills`](https://github.com/mattpocock/skills), folder `skills/productivity/writing-for-agents` | MIT, Matt Pocock |
+| `grilling` | Questions the user in rounds about a plan, decision or idea until both sides reach a shared understanding | [`mattpocock/skills`](https://github.com/mattpocock/skills), folder `skills/productivity/grilling` | MIT, Matt Pocock |
 | `dictation-fixes` | Flags words that were probably transcribed wrong and suggests adding the fix to the dictation app's dictionary | [`jnpkr/skill-dictation-fixes`](https://github.com/jnpkr/skill-dictation-fixes) | None |
 
 Each upstream folder has `SKILL.md` at its root, so each plugin loads as a single skill. An install fetches only the skill folder, so each marketplace entry names the author and licence.
