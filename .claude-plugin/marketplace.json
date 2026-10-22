@@ -16,11 +16,15 @@
       "homepage": "https://github.com/docwriter-org/plain-writing-skill",
       "source": {
         "source": "git-subdir",
-        "url": "docwriter-org/plain-writing-skill",
+        "url": "https://github.com/docwriter-org/plain-writing-skill.git",
         "path": "skills/plain-writing",
         "ref": "main",
         "sha": "f0d3630983ac7a82aa580f1c1509d72df739ee12"
-      }
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ]
     },
     {
       "name": "writing-for-agents",
@@ -32,11 +36,15 @@
       "homepage": "https://github.com/mattpocock/skills",
       "source": {
         "source": "git-subdir",
-        "url": "mattpocock/skills",
+        "url": "https://github.com/mattpocock/skills.git",
         "path": "skills/productivity/writing-for-agents",
         "ref": "main",
         "sha": "5beb35b040e3de97e54fa9e386d7e42d15c295c2"
-      }
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ]
     },
     {
       "name": "dictation-fixes",
@@ -50,7 +58,11 @@
         "repo": "jnpkr/skill-dictation-fixes",
         "ref": "main",
         "sha": "9c14fa300caace425d8f3b079632dddad4ab74b0"
-      }
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ]
     }
   ]
 }

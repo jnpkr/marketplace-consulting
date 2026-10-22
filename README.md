@@ -81,6 +81,13 @@ For each entry, the workflow reads the current head of the entry's `ref`. When t
 
 To release an update, review the upstream changes in the pull request and merge it. Each install then picks up the new pin on its next update.
 
-To add a skill, add an entry to `.claude-plugin/marketplace.json` with a `github` or `git-subdir` source, a `ref`, and a full 40 character `sha`. Keep any executables in a `scripts/` folder, because Cowork, chat and organization sync refuse a plugin with a top-level `bin/` folder. Then run `claude plugin validate .` and install the skill to check it loads.
+To add a skill, add an entry to `.claude-plugin/marketplace.json` and copy the shape of the existing entries.
+
+- Source: use a `github` source when the skill is a whole repository, or a `git-subdir` source when it's a folder inside a larger repository. Write a `git-subdir` URL in full, e.g., `https://github.com/owner/repo.git`, because claude.ai accepts only `https://` URLs.
+- Pin: set `ref` to the branch and `sha` to the full 40 character commit.
+- Manifest: set `"strict": false` and `"skills": ["./"]`, so the entry acts as the plugin's manifest and the skill folder's `SKILL.md` loads as the plugin's one skill.
+- Executables: keep any in a `scripts/` folder, because Cowork, chat and organization sync refuse a plugin with a top-level `bin/` folder.
+
+Then run `claude plugin validate .`, install the skill in Claude Code, and add the marketplace in Customize, then Plugins, to check claude.ai accepts every entry.
 
 GitHub turns off scheduled workflows in a public repository after 60 days without activity. Merging a bump pull request counts as activity, and you can turn the workflow back on from the Actions tab.
