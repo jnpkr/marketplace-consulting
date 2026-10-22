@@ -1,6 +1,6 @@
 {
   "name": "consulting",
-  "description": "Jon's skills for client work",
+  "description": "Skills for consulting work",
   "owner": {
     "name": "Jon Parker",
     "email": "jon@quantamanagement.com"
@@ -49,7 +49,7 @@
         "source": "github",
         "repo": "jnpkr/skill-dictation-fixes",
         "ref": "main",
-        "sha": "dc38dc1eb5301bf57e4ebc3dcf07db9e04d2052d"
+        "sha": "9c14fa300caace425d8f3b079632dddad4ab74b0"
       }
     }
   ]
