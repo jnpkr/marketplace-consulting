@@ -65,6 +65,26 @@
       ]
     },
     {
+      "name": "handoff",
+      "description": "Summarises the current conversation into a handoff document for another agent.",
+      "author": {
+        "name": "Matt Pocock"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/mattpocock/skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mattpocock/skills.git",
+        "path": "skills/productivity/handoff",
+        "ref": "main",
+        "sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    },
+    {
       "name": "grilling",
       "description": "Questions the user in rounds about a plan, decision or idea until both sides reach a shared understanding.",
       "author": {
