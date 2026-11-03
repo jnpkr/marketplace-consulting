@@ -57,7 +57,7 @@
         "source": "github",
         "repo": "jnpkr/skill-dictation-fixes",
         "ref": "main",
-        "sha": "9c14fa300caace425d8f3b079632dddad4ab74b0"
+        "sha": "d2a0e65d23c1da5ae77495e13a0c60a7de7848d6"
       },
       "strict": false,
       "skills": [
@@ -97,7 +97,7 @@
         "url": "https://github.com/mattpocock/skills.git",
         "path": "skills/productivity/grilling",
         "ref": "main",
-        "sha": "5beb35b040e3de97e54fa9e386d7e42d15c295c2"
+        "sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d"
       },
       "strict": false,
       "skills": [
