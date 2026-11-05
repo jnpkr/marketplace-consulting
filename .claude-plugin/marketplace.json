@@ -103,6 +103,24 @@
       "skills": [
         "./"
       ]
+    },
+    {
+      "name": "takeaway-notes",
+      "description": "Turns conversation findings or source documents into concise Markdown notes to save or share.",
+      "author": {
+        "name": "Jon Parker"
+      },
+      "homepage": "https://github.com/jnpkr/skill-takeaway-notes",
+      "source": {
+        "source": "github",
+        "repo": "jnpkr/skill-takeaway-notes",
+        "ref": "main",
+        "sha": "7b5c97987bf59019bee430e5768583393b119f3e"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ]
     }
   ]
 }

@@ -13,6 +13,7 @@ The marketplace is named `consulting`, and each plugin has the same name as its 
 | `grilling` | Questions the user in rounds about a plan, decision or idea until both sides reach a shared understanding | [`mattpocock/skills`](https://github.com/mattpocock/skills), folder `skills/productivity/grilling` | MIT, Matt Pocock |
 | `handoff` | Summarises the current conversation into a handoff document for another agent | [`mattpocock/skills`](https://github.com/mattpocock/skills), folder `skills/productivity/handoff` | MIT, Matt Pocock |
 | `dictation-fixes` | Flags words that were probably transcribed wrong and suggests adding the fix to the dictation app's dictionary | [`jnpkr/skill-dictation-fixes`](https://github.com/jnpkr/skill-dictation-fixes) | None |
+| `takeaway-notes` | Turns conversation findings or source documents into concise Markdown notes to save or share | [`jnpkr/skill-takeaway-notes`](https://github.com/jnpkr/skill-takeaway-notes) | None |
 
 Each upstream folder has `SKILL.md` at its root, so each plugin loads as a single skill. An install fetches only the skill folder, so each marketplace entry names the author and licence.
 
